@@ -1,13 +1,9 @@
 @media screen and (max-width: 730px) {
     header {
-        padding: 1.5rem 4rem;
+        padding: 0.5rem;
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        flex: 1;
-    }
-
-    .navigation {
-        display: none;
     }
 
     .navigation li {
@@ -28,7 +24,7 @@
         cursor: pointer;
     }
 
-    .mobile-menu {
+    .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -43,5 +39,20 @@
     .mobile-menu .navigation_social {
         display: none;
         padding: 1rem 2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main img:nth-child(2) {
+        display: none;
     }
 }
