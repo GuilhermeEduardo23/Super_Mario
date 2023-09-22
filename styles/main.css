@@ -31,4 +31,15 @@ main {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.3px;
+
+    transform: skew(-10deg);
+}
+
+.main_info div a {
+    background: var(--red);
+}
+
+.main_info div button {
+    background: transparent;
+    border: 1px solid var(--green);
 }
