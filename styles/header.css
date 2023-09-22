@@ -4,7 +4,6 @@ header {
     column-gap: 64px;
     width: 100%;
     max-width: 1440px;
-    padding-top: 24px;
 }
 
 header img {
@@ -67,4 +66,12 @@ header img {
 .navigation_social svg:hover {
     opacity: 1;
     transform: translateY(-5px);
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }

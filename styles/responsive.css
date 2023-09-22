@@ -1,0 +1,47 @@
+@media screen and (max-width: 730px) {
+    header {
+        padding: 1.5rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation_social {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu li {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .navigation_social {
+        display: none;
+        padding: 1rem 2rem;
+    }
+}
