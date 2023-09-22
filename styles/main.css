@@ -31,12 +31,18 @@ main {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.3px;
-
     transform: skew(-10deg);
+    transition: 0.4s all;
 }
 
 .main_info div a {
     background: var(--red);
+}
+
+.main_info div a:hover {
+    background: var(--text);
+    color: var(--red);
+    letter-spacing: 3px;
 }
 
 .main_info div button {
